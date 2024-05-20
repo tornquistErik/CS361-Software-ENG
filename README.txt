@@ -7,4 +7,4 @@ To run the file reading microservice, download the script "readFileData.py". Run
 To use the microservice, open a socket connection to localhost at port 8095. Send an eight character hexadecimal message indicating the length of the main message. Then send the main message.
 The server will respond with an 8 digit hexadecimal message, then the main data that was requested. See the implementation in "readFileDataTest.py" for more information
 
-/uml.drawio.png
+[Microservice UML diagram](/uml.drawio.png)
